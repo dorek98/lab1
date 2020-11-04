@@ -24,4 +24,12 @@ public class User {
     public void setAge(int age) {
         this.age = age;
     }
+
+    public String getFirstname() {
+        return firstname;
+    }
+
+    public String getLastname() {
+        return lastname;
+    }
 }
